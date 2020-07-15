@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>var,let,const</title>
+    <style type="text/css">
+        p
+        {
+            font-size :17px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Var,Let,Const</h1>
+    <h2>Var: </h2>
+    <p>The JavaScript variables statement is used to declare a variable and, optionally, we can initialize the value of that variable.<br><br>Example: var a =10;</p>
+    <p>>> Variable declarations are processed before the execution of the code.<br>
+        >> The scope of a JavaScript variable declared with var is its current execution context.<br>
+        >> The scope of a JavaScript variable declared outside the function is global.</p>
+    <h2>let : </h2>
+    <p>The let statement declares a local variable in a block scope. It is similar to var, in that we can optionally initialize the variable.<br><br>Example: let a =10;</p>
+    <p>>>The let statement allows you to create a variable with the scope limited to the block on which it is used.
+    <br>>>It is similar to the variable we declare in other languages like Java, .NET, etc.</p>
+    <h2>const : </h2>
+    <p>const statement values can be assigned once and they cannot be reassigned. The scope of const statement works similar to let statements.<p>
+    <p>Example: const a =10;</p>
+
+    <script type="text/javascript">
+    //var
+    var places = ['Hyderabad','Kolkata','Chennai'];
+    console.log(places);
+    
+    var y = 670;
+    console.log(y);
+
+    var n = null;
+    console.log(n);
+
+    // Let 
+    {
+    let y = "Book"; 
+    console.log("Using Let: ", y);
+    }
+    console.log(y);
+
+    // const - Constant
+
+    const animal = "Peacock";
+    console.log(animal);
+
+
+    </script>
+    </body>
+</html>
